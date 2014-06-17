@@ -1,4 +1,4 @@
-Page
+.pagePage
 	- Background #666
 
 Frame
