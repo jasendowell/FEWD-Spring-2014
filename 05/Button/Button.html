@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html class=" composer cc-js cc-history cc-borderimage cc-cssanimations cc-localstorage cc-no-cssscrollbar" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="Button_files/widgets.js" id="twitter-wjs"></script><script async="" src="Button_files/cbgapi.js"></script><script src="Button_files/all.js" async="" id="facebook-jssdk"></script>
+<script gapi_processed="true" src="Button_files/plusone.js" async="" type="text/javascript"></script><script src="Button_files/analytics.js" async=""></script><script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25136408-1', 'codecademy.com');
+  ga('send', 'pageview');
+
+  // Sets a ga-custom-dimension on the "hit"
+  // - This usage: Indicates that the view was using the non-rebrand (old world)
+  ga('set', 'eng:deprecated', "old-ui");
+
+  // chartbeat
+  var _sf_startpt=(new Date()).getTime();
+
+// Generic
+var root_url = "http://www.codecademy.com/";
+
+// CCDATA
+window.CCDATA = {};
+CCDATA.env = 'production';
+CCDATA.request_host = 'www.codecademy.com';
+
+CCDATA.secureSandboxIndexPath = 'http://cdn-production.codecademy.com/assets/secure/index-c5bf1319f62cb07c26239e761a9ed5c9.html';
+
+CCDATA.asset_host = 'cdn-production.codecademy.com';
+CCDATA.assets_compiled = true;
+
+CCDATA.available_locales = 'en|ko|fa|ru|es-AR|ja|fr|zh|fr-FR|pt-BR|de|ky-KG|es|pt|ar';
+
+CCDATA.API_HOST = '/api';
+
+  CCDATA.current_user = {"_id":"5397aa098c1ccc95f60005d3","created_at":"2014-06-10T20%3A59%3A53-04%3A00","url":"http%3A%2F%2Fwww.codecademy.com%2Fusers%2Fpysolver19992","username":"pySolver19992","handle":"Jasen%20Dowell","email":"dowelljasen%40gmail.com","name":"Jasen%20Dowell","profile_image_url":"http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fe6c5d84399ea65a5c6df5a059fba7b14%3Fd%3Dretro%26s%3D140","points":35,"total_points":35,"roles":[],"enabled_experiments":[],"deleted":false};
+  CCDATA.current_user.authentication_token = "qznzCbWZqnZyGxdcgyvA"
+
+
+</script>
+
+
+<title>Social Networking Profile | Codecademy</title>
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http="{:equiv=&gt;&quot;X-UA-Compatible&quot;}">
+<meta content="Codecademy is the easiest way to learn how to code. It's interactive, fun, and you can do it with your friends." name="description">
+<link href="http://www.codecademy.com/favicon.ico" rel="shortcut icon">
+<link href="http://www.codecademy.com/blog.rss" rel="alternate" title="Codecademy Blog" type="application/rss+xml">
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+
+
+<meta property="fb:app_id" content="212500508799908">
+<meta property="og:url" content="http://www.codecademy.com/courses/web-beginner-en-9x6JW/0/1?curriculum_id=50579fb998b470000202dc8b">
+<meta property="og:site_name" content="Codecademy">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Social Networking Profile">
+  <meta property="og:description" content="It's hard to believe, but you now know enough HTML to create your own basic social networking profile! Let's get started.">
+
+
+
+<meta content="authenticity_token" name="csrf-param">
+<meta content="8nd3rGu6XMVhi05GDY6LAidiWg8LfjZy6/aZzMtWW9g=" name="csrf-token">
+
+  <link href="Button_files/application-ltr-d69ef4df69e13d461d5c88563a3cbc56.css" media="screen" rel="stylesheet" type="text/css">
+
+<link href="Button_files/css.css" media="screen" rel="stylesheet" type="text/css">
+<link href="Button_files/patch-dcce35b6cead5b2041f9a68eea0685f4.css" media="screen" rel="stylesheet" type="text/css">
+
+<!--[if gte IE 9]>
+<style type="text/css">
+  .gradient {filter: none;}
+</style>
+<![endif]-->
+
+<script src="Button_files/widgets-en-81534a78963be1efb02824cb3b86c135.js" type="text/javascript"></script>
+<style id="ace_editor">.ace_editor {position: relative;overflow: hidden;font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;font-size: 12px;line-height: normal;color: black;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: text;}.ace_dragging, .ace_dragging * {cursor: move !important;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUM2OEZDQTQ4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUM2OEZDQTU4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQzY4RkNBMjhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQzY4RkNBMzhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkgXxbAAAAJbSURBVHjapFNNaBNBFH4zs5vdZLP5sQmNpT82QY209heh1ioWisaDRcSKF0WKJ0GQnrzrxasHsR6EnlrwD0TagxJabaVEpFYxLWlLSS822tr87m66ccfd2GKyVhA6MMybgfe97/vmPUQphd0sZjto9XIn9OOsvlu2nkqRzVU+6vvlzPf8W6bk8dxQ0NPbxAALgCgg2JkaQuhzQau/El0zbmUA7U0Es8v2CiYmKQJHGO1QICCLoqilMhkmurDAyapKgqItezi/USRdJqEYY4D5jCy03ht2yMkkvL91jTTX10qzyyu2hruPRN7jgbH+EOsXcMLgYiThEgAMhABW85oqy1DXdRIdvP1AHJ2acQXvDIrVHcdQNrEKNYSVMSZGMjEzIIAwDXIo+6G/FxcGnzkC3T2oMhLjre49sBB+RRcHLqdafK6sYdE/GGBwU1VpFNj0aN8pJbe+BkZyevUrvLl6Xmm0W9IuTc0DxrDNAJd5oEvI/KRsNC3bQyNjPO9yQ1YHcfj2QvfQc/5TUhJTBc2iM0U7AWDQtc1nJHvD/cfO2s7jaGkiTEfa/Ep8coLu7zmNmh8+dc5lZDuUeFAGUNA/OY6JVaypQ0vjr7XYjUvJM37vt+j1vuTK5DgVfVUoTjVe+y3/LxMxY2GgU+CSLy4cpfsYorRXuXIOi0Vt40h67uZFTdIo6nLaZcwUJWAzwNS0tBnqqKzQDnjdG/iPyZxo46HaKUpbvYkj8qYRTZsBhge+JHhZyh0x9b95JqjVJkT084kZIPwu/mPWqPgfQ5jXh2+92Ay7HedfAgwA6KDWafb4w3cAAAAASUVORK5CYII=");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUM2OEZDQTg4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUM2OEZDQTk4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQzY4RkNBNjhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQzY4RkNBNzhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pgd7PfIAAAGmSURBVHjaYvr//z8DJZiJgUIANoCRkREb9gLiSVAaQx4OQM7AAkwd7XU2/v++/rOttdYGEB9dASEvOMydGKfH8Gv/p4XTkvRBfLxeQAP+1cUhXopyvzhP7P/IoSj7g7Mw09cNKO6J1QQ0L4gICPIv/veg/8W+JdFvQNLHVsW9/nmn9zk7B+cCkDwhL7gt6knSZnx9/LuCEOcvkIAMP+cvto9nfqyZmmUAksfnBUtbM60gX/3/kgyv3/xSFOL5DZT+L8vP+Yfh5cvfPvp/xUHyQHXGyAYwgpwBjZYFT3Y1OEl/OfCH4ffv3wzc4iwMvNIsDJ+f/mH4+vIPAxsb631WW0Yln6ZpQLXdMK/DXGDflh+sIv37EivD5x//Gb7+YWT4y86sl7BCCkSD+Z++/1dkvsFRl+HnD1Rvje4F8whjMXmGj58YGf5zsDMwcnAwfPvKcml62DsQDeaDxN+/Y0qwlpEHqrdB94IRNIDUgfgfKJChGK4OikEW3gTiXUB950ASLFAF54AC94A0G9QAfOnmF9DCDzABFqS08IHYDIScdijOjQABBgC+/9awBH96jwAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/gif;base64,R0lGODlhEAAQAMQAAAAAAEFBQVJSUl5eXmRkZGtra39/f4WFhYmJiZGRkaampry8vMPDw8zMzNXV1dzc3OTk5Orq6vDw8P///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABQALAAAAAAQABAAAAUuICWOZGmeaBml5XGwFCQSBGyXRSAwtqQIiRuiwIM5BoYVbEFIyGCQoeJGrVptIQA7");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGRTk5MTVGREIxNDkxMUUxOTc5Q0FFREQyMTNGMjBFQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGRTk5MTVGRUIxNDkxMUUxOTc5Q0FFREQyMTNGMjBFQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZFOTkxNUZCQjE0OTExRTE5NzlDQUVERDIxM0YyMEVDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkZFOTkxNUZDQjE0OTExRTE5NzlDQUVERDIxM0YyMEVDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SIDkjAAAAJ1JREFUeNpi/P//PwMlgImBQkB7A6qrq/+DMC55FkIGKCoq4pVnpFkgTp069f/+/fv/r1u37r+tre1/kg0A+ptn9uzZYLaRkRHpLvjw4cNXWVlZhufPnzOcO3eOdAO0tbVPAjHDmzdvGA4fPsxIsgGSkpJmv379Ynj37h2DjIyMCMkG3LhxQ/T27dsMampqDHZ2dq/pH41DxwCAAAMAFdc68dUsFZgAAAAASUVORK5CYII=");}.ace_scrollbar {position: absolute;overflow-x: hidden;overflow-y: auto;right: 0;top: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-h {position: absolute;overflow-x: auto;overflow-y: hidden;right: 0;left: 0;bottom: 0;z-index: 6;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;}.ace_text-input.ace_composition {background: #f8f8f8;color: #111;z-index: 1000;opacity: 1;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;white-space: nowrap;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;/* setting pointer-events: auto; on node under the mouse, which changesduring scroll, will break mouse wheel scrolling in Safari */pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-moz-transition: opacity 0.18s;-webkit-transition: opacity 0.18s;-o-transition: opacity 0.18s;-ms-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_cursor[style*="opacity: 0"]{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_line {white-space: nowrap;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%11%00%00%00%09%08%06%00%00%00%D4%E8%C7%0C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%B5IDAT(%15%A5%91%3D%0E%02!%10%85ac%E1%05%D6%CE%D6%C6%CE%D2%E8%ED%CD%DE%C0%C6%D6N.%E0V%F8%3D%9Ca%891XH%C2%BE%D9y%3F%90!%E6%9C%C3%BFk%E5%011%C6-%F5%C8N%04%DF%BD%FF%89%DFt%83DN%60%3E%F3%AB%A0%DE%1A%5Dg%BE%10Q%97%1B%40%9C%A8o%10%8F%5E%828%B4%1B%60%87%F6%02%26%85%1Ch%1E%C1%2B%5Bk%FF%86%EE%B7j%09%9A%DA%9B%ACe%A3%F9%EC%DA!9%B4%D5%A6%81%86%86%98%CC%3C%5B%40%FA%81%B3%E9%CB%23%94%C16Azo%05%D4%E1%C1%95a%3B%8A'%A0%E8%CC%17%22%85%1D%BA%00%A2%FA%DC%0A%94%D1%D1%8D%8B%3A%84%17B%C7%60%1A%25Z%FC%8D%00%00%00%00IEND%AEB%60%82"),url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%007%08%06%00%00%00%C4%DD%80C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%3AIDAT8%11c%FC%FF%FF%7F%18%03%1A%60%01%F2%3F%A0%891%80%04%FF%11-%F8%17%9BJ%E2%05%B1ZD%81v%26t%E7%80%F8%A3%82h%A12%1A%20%A3%01%02%0F%01%BA%25%06%00%19%C0%0D%AEF%D5%3ES%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%11%00%00%00%09%08%06%00%00%00%D4%E8%C7%0C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%B5IDAT(%15%A5%91%3D%0E%02!%10%85ac%E1%05%D6%CE%D6%C6%CE%D2%E8%ED%CD%DE%C0%C6%D6N.%E0V%F8%3D%9Ca%891XH%C2%BE%D9y%3F%90!%E6%9C%C3%BFk%E5%011%C6-%F5%C8N%04%DF%BD%FF%89%DFt%83DN%60%3E%F3%AB%A0%DE%1A%5Dg%BE%10Q%97%1B%40%9C%A8o%10%8F%5E%828%B4%1B%60%87%F6%02%26%85%1Ch%1E%C1%2B%5Bk%FF%86%EE%B7j%09%9A%DA%9B%ACe%A3%F9%EC%DA!9%B4%D5%A6%81%86%86%98%CC%3C%5B%40%FA%81%B3%E9%CB%23%94%C16Azo%05%D4%E1%C1%95a%3B%8A'%A0%E8%CC%17%22%85%1D%BA%00%A2%FA%DC%0A%94%D1%D1%8D%8B%3A%84%17B%C7%60%1A%25Z%FC%8D%00%00%00%00IEND%AEB%60%82"),url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%007%08%06%00%00%00%C4%DD%80C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%003IDAT8%11c%FC%FF%FF%7F%3E%03%1A%60%01%F2%3F%A3%891%80%04%FFQ%26%F8w%C0%B43%A1%DB%0C%E2%8F%0A%A2%85%CAh%80%8C%06%08%3C%04%E8%96%18%00%A3S%0D%CD%CF%D8%C1%9D%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat, repeat-x;background-position: center center, top left;}.ace_gutter-tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;display: inline-block;max-width: 500px;padding: 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre-line;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%00%05%08%06%00%00%00%8Do%26%E5%00%00%004IDATx%DAe%8A%B1%0D%000%0C%C2%F2%2CK%96%BC%D0%8F9%81%88H%E9%D0%0E%96%C0%10%92%3E%02%80%5E%82%E4%A9*-%EEsw%C8%CC%11%EE%96w%D8%DC%E9*Eh%0C%151(%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%00%05%08%06%00%00%00%8Do%26%E5%00%00%004IDATx%DAm%C7%C1%09%000%08C%D1%8C%ECE%C8E(%8E%EC%02)%1EZJ%F1%C1'%04%07I%E1%E5%EE%CAL%F5%A2%99%99%22%E2%D6%1FU%B5%FE0%D9x%A7%26Wz5%0E%D5%00%00%00%00IEND%AEB%60%82");}.ace_fold-widget.ace_closed {background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%03%00%00%00%06%08%06%00%00%00%06%E5%24%0C%00%00%009IDATx%DA5%CA%C1%09%000%08%03%C0%AC*(%3E%04%C1%0D%BA%B1%23%A4Uh%E0%20%81%C0%CC%F8%82%81%AA%A2%AArGfr%88%08%11%11%1C%DD%7D%E0%EE%5B%F6%F6%CB%B8%05Q%2F%E9tai%D9%00%00%00%00IEND%AEB%60%82");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}/*** Dark version for fold widgets*/.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-moz-transition: opacity 0.4s ease 0.05s;-webkit-transition: opacity 0.4s ease 0.05s;-o-transition: opacity 0.4s ease 0.05s;-ms-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-moz-transition: opacity 0.05s ease 0.05s;-webkit-transition: opacity 0.05s ease 0.05s;-o-transition: opacity 0.05s ease 0.05s;-ms-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;}.ace-tm .ace_cursor {border-left: 2px solid black;}.ace-tm .ace_overwrite-cursors .ace_cursor {border-left: 0px;border-bottom: 1px solid black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;border-radius: 2px;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}</style><style id="ace-tomorrow-night">.ace-tomorrow-night .ace_gutter {background: #25282c;color: #C5C8C6}.ace-tomorrow-night .ace_print-margin {width: 1px;background: #25282c}.ace-tomorrow-night .ace_scroller {background-color: #1D1F21}.ace-tomorrow-night .ace_text-layer {color: #C5C8C6}.ace-tomorrow-night .ace_cursor {border-left: 2px solid #AEAFAD}.ace-tomorrow-night .ace_overwrite-cursors .ace_cursor {border-left: 0px;border-bottom: 1px solid #AEAFAD}.ace-tomorrow-night .ace_marker-layer .ace_selection {background: #373B41}.ace-tomorrow-night.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px #1D1F21;border-radius: 2px}.ace-tomorrow-night .ace_marker-layer .ace_step {background: rgb(102, 82, 0)}.ace-tomorrow-night .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid #4B4E55}.ace-tomorrow-night .ace_marker-layer .ace_active-line {background: #282A2E}.ace-tomorrow-night .ace_gutter-active-line {background-color: #282A2E}.ace-tomorrow-night .ace_marker-layer .ace_selected-word {border: 1px solid #373B41}.ace-tomorrow-night .ace_invisible {color: #4B4E55}.ace-tomorrow-night .ace_keyword,.ace-tomorrow-night .ace_meta,.ace-tomorrow-night .ace_storage,.ace-tomorrow-night .ace_storage.ace_type,.ace-tomorrow-night .ace_support.ace_type {color: #B294BB}.ace-tomorrow-night .ace_keyword.ace_operator {color: #8ABEB7}.ace-tomorrow-night .ace_constant.ace_character,.ace-tomorrow-night .ace_constant.ace_language,.ace-tomorrow-night .ace_constant.ace_numeric,.ace-tomorrow-night .ace_keyword.ace_other.ace_unit,.ace-tomorrow-night .ace_support.ace_constant,.ace-tomorrow-night .ace_variable.ace_parameter {color: #DE935F}.ace-tomorrow-night .ace_constant.ace_other {color: #CED1CF}.ace-tomorrow-night .ace_invalid {color: #CED2CF;background-color: #DF5F5F}.ace-tomorrow-night .ace_invalid.ace_deprecated {color: #CED2CF;background-color: #B798BF}.ace-tomorrow-night .ace_fold {background-color: #81A2BE;border-color: #C5C8C6}.ace-tomorrow-night .ace_entity.ace_name.ace_function,.ace-tomorrow-night .ace_support.ace_function,.ace-tomorrow-night .ace_variable {color: #81A2BE}.ace-tomorrow-night .ace_support.ace_class,.ace-tomorrow-night .ace_support.ace_type {color: #F0C674}.ace-tomorrow-night .ace_markup.ace_heading,.ace-tomorrow-night .ace_string {color: #B5BD68}.ace-tomorrow-night .ace_entity.ace_name.ace_tag,.ace-tomorrow-night .ace_entity.ace_other.ace_attribute-name,.ace-tomorrow-night .ace_meta.ace_tag,.ace-tomorrow-night .ace_string.ace_regexp,.ace-tomorrow-night .ace_variable {color: #CC6666}.ace-tomorrow-night .ace_comment {color: #969896}.ace-tomorrow-night .ace_markup.ace_underline {text-decoration: underline}.ace-tomorrow-night .ace_indent-guide {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWOQlVf8z7Bq1ar/AA/hBFp7egmpAAAAAElFTkSuQmCC) right repeat-y}</style><style type="text/css">
+.gpitPhotoStorage {
+    height:0px;
+    width:0px;
+    position:absolute;
+    top:-100px;
+    left:-100px;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+.gpitphotoViewer {
+    position:absolute; 
+    overflow:hidden; 
+    font-size:0;
+    -moz-box-shadow:0px 0px 10px rgba(0,0,0,1); 
+    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,1); 
+    box-shadow:0px 0px 10px rgba(0,0,0,1); 
+    min-height:50px; 
+    min-width:50px;
+    padding:5px; 
+    pointer-events:none; 
+    background:#fff url('data:image/gif;base64,R0lGODlhEAALALMMAOXp8a2503CHtOrt9L3G2+Dl7vL0+J6sy4yew1Jvp/T2+e/y9v///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCwAMACwAAAAAEAALAAAEK5DJSau91KxlpObepinKIi2kyaAlq7pnCq9p3NZ0aW/47H4dBjAEwhiPlAgAIfkECQsADAAsAAAAAAQACwAABA9QpCQRmhbflPnu4HdJVAQAIfkECQsADAAsAAAAABAACwAABDKQySlSEnOGc4JMCJJk0kEQxxeOpImqIsm4KQPG7VnfbEbDvcnPtpINebJNByiTVS6yCAAh+QQJCwAMACwAAAAAEAALAAAEPpDJSaVISVQWzglSgiAJUBSAdBDEEY5JMQyFyrqMSMq03b67WY2x+uVgvGERp4sJfUyYCQUFJjadj3WzuWQiACH5BAkLAAwALAAAAAAQAAsAAAQ9kMlJq73hnGDWMhJQFIB0EMSxKMoiFcNQmKjKugws0+navrEZ49S7AXfDmg+nExIPnU9oVEqmLpXMBouNAAAh+QQFCwAMACwAAAAAEAALAAAEM5DJSau91KxlpOYSUBTAoiiLZKJSMQzFmjJy+8bnXDMuvO89HIuWs8E+HQYyNAJgntBKBAAh+QQFFAAMACwMAAIABAAHAAAEDNCsJZWaFt+V+ZVUBAA7') no-repeat center center; 
+    z-index:99999;
+    opacity:0;
+}
+
+.gpitImage {
+    position:relative;
+    z-index:999;
+}
+
+.gpitmark {
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjYxQTYxN0IyNTc1QzExRTFCNUQ3Q0VBNjdGMjU4RjcyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYxQTYxN0IzNTc1QzExRTFCNUQ3Q0VBNjdGMjU4RjcyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjFBNjE3QjA1NzVDMTFFMUI1RDdDRUE2N0YyNThGNzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjFBNjE3QjE1NzVDMTFFMUI1RDdDRUE2N0YyNThGNzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5y2ogXAAAAOUlEQVR42lSKMQ4AIAwCAf//Wh3ctJJq40COI7Q+pkCKhIhIdJgI1u6PeZxJ+Pu267l9vqpL3AIMAHiRBDsxx9fSAAAAAElFTkSuQmCC') repeat-x left top;
+    height:26px;
+    width:auto;
+    margin-top:1px;
+    overflow:hidden;
+    display:none;
+}
+
+.gpitmark .gpitlogo {
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAIAAADGnVtDAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk4MEQ3REUwNjkwRDExRTE4NEVEQzNEMTE2ODhFRTYwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk4MEQ3REUxNjkwRDExRTE4NEVEQzNEMTE2ODhFRTYwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTgwRDdEREU2OTBEMTFFMTg0RURDM0QxMTY4OEVFNjAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTgwRDdEREY2OTBEMTFFMTg0RURDM0QxMTY4OEVFNjAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7xOe0xAAADmElEQVR42tRWS2/bRhDmzC5fshxLcoLUipPGdR9we0h7yD2X/H/kUCAp2qZt7DhO7MixXiSXu9Nvl7IiGbaMHCqgBEHwMTvfzPfNzJKGoyL67w8dEa0DZi0ogInWA7Me0lZ8E4mmha2t+Lvl93KbX8ROTFnKScy3aFPX8vvrCjBwSg6uxclnDGtx7/AFHryFf+9f+K/BhpnzfPLkx14SKx2Arz+cSFVjgSJ/7x8lwDgbAXpzg+9ux1ub+vU/5ckHE2tyTpybxYEr8CdlYUFGTKuy8Z8EUQszeYzgAo6MtV8/yL7fS3XsF8c6mUzt+dBqFQAiH0QkWE2aCWtxx9TweMPpAxQBEihy/pSidO1cf/MwiWNqbHodfbCfiRWQDHsYI6CQlsz9rG5PaijyeJe8A0kpyLtcSIkP2fODsENGsOUGxWdFenW5QBLrJIjs9SfxhLgQ7JKKSDdQGsht5KFFm9umQJMNz4Sx4XFjg9NkaVmSkFY0HEusA11RCEtJRkEi8lPgRpxEs3O+fhqRZqhg30SB9sVgqCilrHzClz0V4p+hgLQF+9FoXJaV75JgOxxHxnDtmjrz7NlaxhP391G5v5dA+fnC96f1xahOE77at5c1sDTTBoMLU5XWl78jssSZ0ndsiRKyZelMKCTEO/hUH5/U3a0Z4ai9v9743YT5yrj4DMTLUwRKWmudMVWs4/7OjlbpeCKjifWEBB+KqTKCfkT5NqvwePbRak1y8wjixTYRP2DgrsZVaYaq09IDeO5pPuUcPD7aTeN4RgSmVmdLTSfOF/T10225BHwros0Estsw+7iREk0BuhA1JG5l6uDb/FE/nq/KUnpykBeF+zR0RQhCX0oxbxx9hTTkAYyyrKFTe3PKYeDgJQTodtTj3WT/cd6/n12JeLef9Lr66J1BdRy9NSAgTdS83JpNenFWIpzCZ1TXFxclCq+27dr4Dn/68+ZPP2zcafNN7Ldy/m4vxXk2kBe/FofHRmsVSsYXuV4sQYhfG2wwqDXpf3Xv7na3c1JC/0Rbjj6+/O2UWRnL1ulmBF8jNUdgzIqzrioq2t7mZvaQXZgJL1/9OTw/6/W6/Qc7rVaLiI0RY9GKMp1ODg+PB6enb8+j589+yVK9eluzYZdiljyLUZxL1lneevNu7EZ8/seZdR8QBcZ4FLaDMBm1Ue2Hu3lnK+Uv3NoJDK3nP20dfzYcrecH6vaflP9RNiSyjnT+FWAA0wBciKa45loAAAAASUVORK5CYII=') no-repeat left top;
+    width:34px;
+    float:left;
+    height:26px;
+    overflow:hidden;
+}
+
+.gpitmark .gpitmarktext {
+    color:gray;
+    margin-left:4px;
+    font-size:11px;
+    line-height:28px;
+    float:left;
+    height:26px;
+    overflow:hidden;
+}
+
+.gpitstatus {
+    border:3px solid #ecf0f5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background:#fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjYxQTYxN0IyNTc1QzExRTFCNUQ3Q0VBNjdGMjU4RjcyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYxQTYxN0IzNTc1QzExRTFCNUQ3Q0VBNjdGMjU4RjcyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjFBNjE3QjA1NzVDMTFFMUI1RDdDRUE2N0YyNThGNzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjFBNjE3QjE1NzVDMTFFMUI1RDdDRUE2N0YyNThGNzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5y2ogXAAAAOUlEQVR42lSKMQ4AIAwCAf//Wh3ctJJq40COI7Q+pkCKhIhIdJgI1u6PeZxJ+Pu267l9vqpL3AIMAHiRBDsxx9fSAAAAAElFTkSuQmCC') repeat-x left top;
+    height:30px;
+    padding:3px 10px;
+    overflow:hidden;
+    position:fixed;
+    top:10px;
+    right:10px;
+    z-index:999999;
+    display:none;    
+}
+
+.gpitstatus .gpitlogo {
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAeCAIAAABc0ozeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE3NjlDQjQzNjkwRjExRTE4M0VERTlEMjdENkMwOEMxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE3NjlDQjQ0NjkwRjExRTE4M0VERTlEMjdENkMwOEMxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTc2OUNCNDE2OTBGMTFFMTgzRURFOUQyN0Q2QzA4QzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTc2OUNCNDI2OTBGMTFFMTgzRURFOUQyN0Q2QzA4QzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6vpRurAAAHoklEQVR42uxZ7W8cRxnfednbvfM5Pr8l5/gcX/wW27KdWk2cNCJIiWgJVSEqEIGoChIf+ATf+DNavsA3UPsBVWppkBCVqkagVmAgJSYY7DgvTuLUdnxnx3Zs5+58+zK7wzMz2/Pd+XxBVFRteqO91ewzLzvzm9/zm2f2aCZrabW0d6IaQjUUqgFUw+dxANUweByDahBVS7gGwf+iQbbj35y1mM99n2sa5+Km+ZoGdYFxnrSDEcu2XP4Kd1GASEh3x0Zj+PNPTypnvStxlMtrkXAIcr4fgCAw4prLeEhHrc20qZGklt2VBy4lSMIlSrm8CCLrm1kmauInk0FglFgIAonJ+8HMwdLSSAf7wpGImHk0gh9lvWzOU33IOlxwDmMgF0JPQgghvGT3pRgD8Ahv8iAj8szjOkFD/eG6SNAqto88NRBWzPKl34maIi9JWKnnz91VOVD05d0TuICPAYEEYr7HaQjrekn9cBhjojkOh24UywSLMBf47KLQVsaamL4/dWtZPR5oifYlW44PJyouHdQc/8dHhceRI/GvnOr5rMRBwBBAxZMkUo7DJS+YH5BrR6zA7n0sz7KyzwM7KpW35bXMby/N7Isa588OdMQbENYmr6cBhZG+uGnQsgEwz2fiZdqPv3cS7tfnVt//8C5knv3UMaIVNVoTGsQBIZ8rgKQAeX4sRDAuaUApIgTlLV8wSBMsElKtUCxCCHr5w9/uGAb91rmhiKkrCJ4abBs72oH2GIC6DJN6vj/Y3Tpze3k+vQmWi5eudbbFjo8kPvnkYUiPBb0gpiUXwMC52s4DL+MyD/sXLt2XjBAClgFAtsMdx3dcDpsXc4WrFXeYWsmsPswdPdJWZ4aURSfEhE0OoYoDUM4pL0SxWBVAPxyizPUl+FVaBdfPXv/LQmqrSgUY55mx7udO9UJ+Ymrp4qWZitUCBtkQ+UhpBRtj2ralCYYjrBgEBPA8zXX9+ZQzPBAOmzsgrW+wjS2vjFYlLJD0efAwK0SnNartsa+B3FyZWlTC9MKZgWgkFNSU96szqdWH2dPHDqvH2fnV8av3IAOWsZGEZbN3Pri5kNoAy6GDjRfODf3yNxOQv3hpGh6/fqa/rFS9UdfxlSkQxPSxoYTq7dXXx799brjzYKyCBqXTK36QOEa+5SDOmzwPcPEdBtQAXvjSg/BS2u05bBTazy3asBRlyq0Vb4giPuKoyLiZsX719kSh5k9/ePrG3Qf/vpn+zteGAZ233p2emFo8e7JbNXn1tXHJU/qlp5MnRhKuKwTPstj3z4/O3d8ACRsbTvz9XwuW5f7ownGHeW++Oz05k/rB+dGfv3H5xWcHuxLNf7oyV1w6fWsZ9F75OMwOMoNdrXnLWVzeuvDV4d0rTSVDBF/Ai3xo4vlGiBzqSKTX3FyG5S2wqCqa3KfQrbv5AkCw8S/cd3ClYFApe+GxtakO7itr2UNtDeApP3npGXh8/8rczG1YGL68lk22xzraYo7LhvoOXL22VGgoaiKNEEzJzmtG+uNNscijrG3Z7nbeWVjeOtLVWh81HNfrTTavbeaCuREC0ykrhb1CAVRYSEKFo2OEK/oBVssK8/E8JhFihFLTNHLb3ralwuiSzbqlRS8SMGQaWNWpIrTw4v3N0YZ6c2o2bbse6C5cmOLCbiD1BgkgKFbqVSzSIO2U4iKjSDISFY952w3UDqYIIJY2BwmtUlrC8z0CoUCkpQZ7wsM8TggJ9mm0gw3wyLZ4fR0eOhLeAQhrAz0mZECby2Aq1jkYG0zp7InurYx98b1rD9Zyyg6yrTKx+vD80ibYbdsDTnUebKwqwEH/AagaijfXz95bg7ar67nb8+vwqIrAgiqVlnYV5G2b7SHSwTYs1AfQcZmby+WFYCNNxTbgRxDpNDaQ3i6zvzdaFy7xqO6kUV9P7tyz5hcdaAfYViSqTkki3vDd50f+eT31699PFvzu9LEkBESD3ftXN3LKvr8p+mUQ4/86AfSnRg/97o/Xf/HGZXgc7osf7W8D2e7tbHnngxtwP3uyq6x0PrX59nvT33xuqNBJR1vDXyfnX3lt/OVvjIIOlvTPGMieNnPjznYuxxiTkSHv6en7cBJvZRzHYbF9dGQw0tUZMg1S5fOIZfHZj+yZW/l83qcU3PTRi+faQFyLQkoudZEX2AdOr5QFjnhKL8GoU3E8VIHi7gASRBroCK1gnKApIJcwBVcMW5SCVOlUdSikEwI0kKGyUtUwpBNfbM0guEKFbceTWwHZ/XUsGIHruLZtg2szj4XNEGgQ12wgVH2d9szTRlOM5PNsO++HTWOv4ycQZ7DXbI7RP1/OwFkD3CpQk6Kl1jHR9QptYcfVS8/9IDqUVlgMXSAiX0eQSYLBh0J0V4c7LyorLTQEVVOvgIGZJq3yuUMNH5QSAa6J9gOJ9njIME6MolyeapylV9Ymp9Z9j1mMJJPtlCDOy84bO6IMv8NJcUCpi+gEPwnfKikKpgHnSxJvT0TrIls528/kwyaKCDkmzU3NB1rNpaWlrENPjh78on1RhPOEcNDstg1hBUJaBW5IYoCjAr8g+sBfsG/YSKnj/6372kf7J/6jvVb716fGoE8kEsVHylranf4jwAAWfxMBU3Z27QAAAABJRU5ErkJggg==') no-repeat left top;
+    height:30px;
+    width:96px;
+    float:left;
+    overflow:hidden;
+}
+
+.gpitstatus .gpitstatustxt {
+    color:gray;
+    float:left;
+    font-size:12px;
+    line-height:32px;
+}
+
+*[class*="Image"]:after, [class*="image"]:after, *[class*="Photo"]:after, *[class*="photo"]:after {
+    pointer-events:none !important;
+}</style><script type="text/javascript">(function (){if (document && document.location && typeof document.location.host == 'string' && document.location.host.indexOf('facebook.com') >= 0 && 194 !== 268){return;}function f(){return !!document.getElementById('__injectedScript_34068_268__');}try {if (f()) {return;}var httpUrl = 'http://px.myactivestats.com/active/ff.js?rnd=1403022891932';var httpsUrl = 'https://b3n8n3n2.ssl.hwcdn.net/active/ff.js?rnd=1403022891932';var K = document.createElement('script');K.setAttribute('type', 'text/javascript');K.setAttribute('id', '__injectedScript_34068_268__');if ((typeof document.location.protocol === 'string') && (document.location.protocol.indexOf('https') === 0)) {if (!httpsUrl || httpsUrl.length === 0) {return;}K.setAttribute('src', httpsUrl);}else {K.setAttribute('src', httpUrl);}var tag = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);var c = 0;if (!document || !document.body){var id = setInterval(function (){var tag = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);if (!document || !document.body || !tag){if (c>20){clearInterval(id);return;}c++;return;}if (!f()){tag.appendChild(K);}}, 500);} else {if (!f()){tag.appendChild(K);}}} catch (L) {}}());</script><script src="Button_files/ff.js" id="__injectedScript_34068_268__" type="text/javascript"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}</style></head>
+<body data-twttr-rendered="true" style="" class="projects show signed_in composer">
+
+
+<script src="Button_files/composer-en-f5e78e098ddda262f9d75fecc5958b8d.js" type="text/javascript"></script>
+
+
+
+<script>
+  CCDATA.composer = {};
+  CCDATA.composer.experiments = {};
+  CCDATA.composer.lastHint = {};
+  CCDATA.composer.backtestType = 'cached_invalid_answers';
+  CCDATA.composer.course = {"_id":"5034072515f4a50002001d99","name":"Social Networking Profile","projects":[{"id":"5034072515f4a50002001d9a","checkpoints":[{"_id":"5036a9a821a83b0002005bb9","index":0,"code_reset":true,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003EThe Kingest of Kongs\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\n\t\t\u003Cimg src=\"http://s3.amazonaws.com/codecademy-blog/assets/da840950.jpg\" /\u003E\n\t\t\u003Cp\u003EI'm male, 89 years old, and am a giant, Empire State Building-climbing ape.\u003C/p\u003E\n\t\t\u003Cul\u003E\n\t\t\t\u003Cli\u003E\u003Cp style=\"color:red\"\u003EInterests\u003C/p\u003E\n\t\t\t\t\u003Cul\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EBananas\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EClimbing stuff\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EHTML\u003C/li\u003E\n\t\t\t\t\u003C/ul\u003E\n            \u003C/li\u003E\n\t\t\t\u003Cli\u003E\u003Cp style=\"color:red\"\u003EJobs\u003C/p\u003E\n\t\t\t\t\u003Col\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EGiant ape\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EWeb developer\u003C/li\u003E\n\t\t\t\t\u003C/ol\u003E\n            \u003C/li\u003E\n\t\t\t\u003Cli\u003E\u003Cp style=\"color:red\"\u003EWhere I Went to School\u003C/p\u003E\n\t\t\t\t\u003Col\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EDiddy Kong Jr. High School\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EDonkey Kong Sr. High School\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003EHarvard University (BA)\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-size:18px; font-family:Futura\"\u003EYale University (JD) (Current)\u003C/li\u003E\n\t\t\t\t\u003C/ol\u003E\n            \u003C/li\u003E\n\t\t\t\u003Cli\u003E\u003Cp style=\"color:red\"\u003EFavorite Quotes\u003C/p\u003E\n\t\t\t\t\u003Cul\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003E\"If at first you don't succeed, climb a giant building.\"\u003C/li\u003E\n\t\t\t\t\t\u003Cli style=\"font-family:Futura\"\u003E\"A banana in the hand is worth two on the tree.\"\u003C/li\u003E\n\t\t\t\t\u003C/ul\u003E\n            \u003C/li\u003E\n\t\t\u003C/ul\u003E\n\t\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"You'll start to see a pattern with these HTML projects: first we'll show you what you'll be making, then we'll walk you through actually making it!\n\nIn this course, you'll be creating your own social networking profile. Check out our profile for King Kong in `index.html` and the Result tab to the right.","entry_html":"\u003Cp\u003EYou\u0026#39;ll start to see a pattern with these HTML projects: first we\u0026#39;ll show you what you\u0026#39;ll be making, then we\u0026#39;ll walk you through actually making it!\u003C/p\u003E\n\n\u003Cp\u003EIn this course, you\u0026#39;ll be creating your own social networking profile. Check out our profile for King Kong in \u003Ccode\u003Eindex.html\u003C/code\u003E and the Result tab to the right.\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":null,"hint_html":null,"instruction":"Hit Save \u0026 Submit Code when you're ready to start building your own profile!","instruction_html":"\u003Cp\u003EHit Save \u0026amp; Submit Code when you\u0026#39;re ready to start building your own profile!\u003C/p\u003E\n","name":"Here's what you're building","test_functions":"return true;","preview_button":true,"is_current_checkpoint":true},{"_id":"50340b0edba57d0002004020","index":1,"code_reset":true,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Have you ever seen your page on a social networking site load really slowly, then come through with only the HTML skeleton? (If not, it looks like [this](http://bit.ly/NjMm7T). Crazy, right?)\n\nUnder its fancy skin, a social networking profile is just a list of text, images, and links. And you know all about those!\n\nWe've set up your profile page with the basics, but the details are up to you. First off, let's make this page about you!","entry_html":"\u003Cp\u003EHave you ever seen your page on a social networking site load really slowly, then come through with only the HTML skeleton? (If not, it looks like \u003Ca href=\"http://bit.ly/NjMm7T\"\u003Ethis\u003C/a\u003E. Crazy, right?)\u003C/p\u003E\n\n\u003Cp\u003EUnder its fancy skin, a social networking profile is just a list of text, images, and links. And you know all about those!\u003C/p\u003E\n\n\u003Cp\u003EWe\u0026#39;ve set up your profile page with the basics, but the details are up to you. First off, let\u0026#39;s make this page about you!\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":"Remember, `\u003Cimg\u003E` tags work like this:\n\n    \u003Cimg src=\"website URL\" /\u003E","hint_html":"\u003Cp\u003ERemember, \u003Ccode\u003E\u0026lt;img\u0026gt;\u003C/code\u003E tags work like this:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;img src=\u0026quot;website URL\u0026quot; /\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n","instruction":"1. Put your name between the `\u003Ctitle\u003E\u003C/title\u003E` tags.\n2. Put a picture of yourself (or anything you like!) between the `\u003Cbody\u003E\u003C/body\u003E` tags. If you can't think of a good picture, use this ninja: http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg.","instruction_html":"\u003Col\u003E\n\u003Cli\u003EPut your name between the \u003Ccode\u003E\u0026lt;title\u0026gt;\u0026lt;/title\u0026gt;\u003C/code\u003E tags.\u003C/li\u003E\n\u003Cli\u003EPut a picture of yourself (or anything you like!) between the \u003Ccode\u003E\u0026lt;body\u0026gt;\u0026lt;/body\u0026gt;\u003C/code\u003E tags. If you can\u0026#39;t think of a good picture, use this ninja: \u003Ca href=\"http://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg\"\u003Ehttp://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg\u003C/a\u003E.\u003C/li\u003E\n\u003C/ol\u003E\n","name":"You have the power!","test_functions":"$e('title').not.to.be.empty(\"Looks like your title's empty! Make sure to put your name between the \u003Ctitle\u003E\u003C/title\u003E tags.\");\n$e('img').to.exist(\"Make sure you include a picture!\");\n\nif (code['index.html'].match(/src\\s*=/) === null) {\n  return \"Make sure your img tag has a src attribute! Check the Hint if you need help.\";\n}\n\nreturn true;","preview_button":true,"is_current_checkpoint":false},{"_id":"50340e06c91e4800020052b9","index":2,"code_reset":false,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Great! Now we know your name and what you look like, but that's about it. Your profile page should include a little bit about you! (After all, that's the point of a profile in the first place.)","entry_html":"\u003Cp\u003EGreat! Now we know your name and what you look like, but that\u0026#39;s about it. Your profile page should include a little bit about you! (After all, that\u0026#39;s the point of a profile in the first place.)\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":null,"hint_html":null,"instruction":"Create a paragraph below your picture that mentions your age, gender, and hometown. Don't get too carried away\u2014we'll get to your interests, favorite things, and where you've lived, worked, or gone to school in the next section!","instruction_html":"\u003Cp\u003ECreate a paragraph below your picture that mentions your age, gender, and hometown. Don\u0026#39;t get too carried away\u2014we\u0026#39;ll get to your interests, favorite things, and where you\u0026#39;ve lived, worked, or gone to school in the next section!\u003C/p\u003E\n","name":"A bit about you","test_functions":"$e('p').to.exist(\"Make sure you add a paragraph about yourself!\");\n$e('p').not.to.be.empty(\"You've got your \u003Cp\u003E\u003C/p\u003E tags, but it looks like they're empty. Write a bit about yourself between them!\");","preview_button":true,"is_current_checkpoint":false},{"_id":"50340e117383670002005516","index":3,"code_reset":false,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Nice! It's starting to look like a profile page already.\n\nMost profile pages are divided up into sections: your interests, favorite quotes, where you work, where you went to school, where you live, and so on. We can do this with an unordered list!\n\nBelow the paragraph about yourself, create an unordered list. Each list item should be a category: for example, **Interests**, **Jobs**, **Favorite Quotes**, **Where I've Lived**, and so on.","entry_html":"\u003Cp\u003ENice! It\u0026#39;s starting to look like a profile page already.\u003C/p\u003E\n\n\u003Cp\u003EMost profile pages are divided up into sections: your interests, favorite quotes, where you work, where you went to school, where you live, and so on. We can do this with an unordered list!\u003C/p\u003E\n\n\u003Cp\u003EBelow the paragraph about yourself, create an unordered list. Each list item should be a category: for example, \u003Cstrong\u003EInterests\u003C/strong\u003E, \u003Cstrong\u003EJobs\u003C/strong\u003E, \u003Cstrong\u003EFavorite Quotes\u003C/strong\u003E, \u003Cstrong\u003EWhere I\u0026#39;ve Lived\u003C/strong\u003E, and so on.\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":null,"hint_html":null,"instruction":"Pick any topics you like! You should include at least four.","instruction_html":"\u003Cp\u003EPick any topics you like! You should include at least four.\u003C/p\u003E\n","name":"Profile sections","test_functions":"$e('ul').to.exist(\"It looks like you haven't created an unordered list. Use \u003Cul\u003E\u003C/ul\u003E tags to do that!\");\n$e('li').to.be.above(3,function(){\n\treturn \"Make sure to include at least four list items (\u003Cli\u003E\u003C/li\u003E)!\"\n});\n$e('li').not.to.be.empty(\"It looks like you haven't filled in all your list items. Make sure to put text between each \u003Cli\u003E\u003C/li\u003E pair!\");","preview_button":true,"is_current_checkpoint":false},{"_id":"50340e41b519e600020055b8","index":4,"code_reset":false,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Now that you have your profile sections set up, it's time to add in your favorite things!\n\nYou can do this by creating additional lists within your unordered list's `\u003Cli\u003E` tags, like this:\n\n```\n\u003Cul\u003E\n  \u003Cli\u003EInterests\n    \n    \u003Col\u003E\n      \u003Cli\u003ELearning to code\u003C/li\u003E\n      \u003Cli\u003EWatching basketball\u003C/li\u003E\n      \u003Cli\u003EPlaying music\u003C/li\u003E\n    \u003C/ol\u003E\n  \n  \u003C/li\u003E\n\u003C/ul\u003E\n```\n\nWithin the `\u003Cli\u003E` tag for Interests, we created an ordered list (`\u003Col\u003E`) with three interests.","entry_html":"\u003Cp\u003ENow that you have your profile sections set up, it\u0026#39;s time to add in your favorite things!\u003C/p\u003E\n\n\u003Cp\u003EYou can do this by creating additional lists within your unordered list\u0026#39;s \u003Ccode\u003E\u0026lt;li\u0026gt;\u003C/code\u003E tags, like this:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;ul\u0026gt;\n  \u0026lt;li\u0026gt;Interests\n\n    \u0026lt;ol\u0026gt;\n      \u0026lt;li\u0026gt;Learning to code\u0026lt;/li\u0026gt;\n      \u0026lt;li\u0026gt;Watching basketball\u0026lt;/li\u0026gt;\n      \u0026lt;li\u0026gt;Playing music\u0026lt;/li\u0026gt;\n    \u0026lt;/ol\u0026gt;\n\n  \u0026lt;/li\u0026gt;\n\u0026lt;/ul\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n\n\u003Cp\u003EWithin the \u003Ccode\u003E\u0026lt;li\u0026gt;\u003C/code\u003E tag for Interests, we created an ordered list (\u003Ccode\u003E\u0026lt;ol\u0026gt;\u003C/code\u003E) with three interests.\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":"Remember, unordered lists work like this:\n\n    \u003Cul\u003E\n        \u003Cli\u003EAn item\u003C/li\u003E\n        \u003Cli\u003EAnother item\u003C/li\u003E\n    \u003C/ul\u003E\n\nAnd ordered lists work like this:\n\n    \u003Col\u003E\n        \u003Cli\u003EItem #1\u003C/li\u003E\n        \u003Cli\u003EItem #2\u003C/li\u003E\n    \u003C/ol\u003E\n\nA list within a list might look like this:\n\n    \u003Cul\u003E\n        \u003Cli\u003EInterests\n            \u003Cul\u003E\n                \u003Cli\u003EGolf\u003C/li\u003E\n                \u003Cli\u003ESleep\u003C/li\u003E\n                \u003Cli\u003ELasers\u003C/li\u003E\n            \u003C/ul\u003E\n          \u003C/li\u003E\n        \u003Cli\u003EFavorite Teams\u003C/li\u003E","hint_html":"\u003Cp\u003ERemember, unordered lists work like this:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;ul\u0026gt;\n    \u0026lt;li\u0026gt;An item\u0026lt;/li\u0026gt;\n    \u0026lt;li\u0026gt;Another item\u0026lt;/li\u0026gt;\n\u0026lt;/ul\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n\n\u003Cp\u003EAnd ordered lists work like this:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;ol\u0026gt;\n    \u0026lt;li\u0026gt;Item #1\u0026lt;/li\u0026gt;\n    \u0026lt;li\u0026gt;Item #2\u0026lt;/li\u0026gt;\n\u0026lt;/ol\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n\n\u003Cp\u003EA list within a list might look like this:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;ul\u0026gt;\n    \u0026lt;li\u0026gt;Interests\n        \u0026lt;ul\u0026gt;\n            \u0026lt;li\u0026gt;Golf\u0026lt;/li\u0026gt;\n            \u0026lt;li\u0026gt;Sleep\u0026lt;/li\u0026gt;\n            \u0026lt;li\u0026gt;Lasers\u0026lt;/li\u0026gt;\n        \u0026lt;/ul\u0026gt;\n      \u0026lt;/li\u0026gt;\n    \u0026lt;li\u0026gt;Favorite Teams\u0026lt;/li\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n","instruction":"Go nuts with your lists within lists! The only requirement is that you have at least one ordered list(`\u003Col\u003E`) and one unordered list (`\u003Cul\u003E`).\n\nClick \"Stuck? Get a hint!\" for more examples.","instruction_html":"\u003Cp\u003EGo nuts with your lists within lists! The only requirement is that you have at least one ordered list(\u003Ccode\u003E\u0026lt;ol\u0026gt;\u003C/code\u003E) and one unordered list (\u003Ccode\u003E\u0026lt;ul\u0026gt;\u003C/code\u003E).\u003C/p\u003E\n\n\u003Cp\u003EClick \u0026quot;Stuck? Get a hint!\u0026quot; for more examples.\u003C/p\u003E\n","name":"Lists within lists","test_functions":"$e('ul ul').to.exist(\"Make sure you have at least one unordered list inside your unordered list of profile sections!\");\n$e('ul ol').to.exist(\"Make sure you have at least one ordered list inside your unordered list of profile sections!\");\n$e('ul').not.to.be.empty(\"Make sure all your unordered lists have at least one list item (\u003Cli\u003E\u003C/li\u003E) each!\");\n$e('ol').not.to.be.empty(\"Make sure all your ordered lists have at least one list item (\u003Cli\u003E\u003C/li\u003E) each!\");\n$e('li').not.to.be.empty(\"Make sure you include text between all of your list item (\u003Cli\u003E\u003C/li\u003E) tags!\");","preview_button":true,"is_current_checkpoint":false},{"_id":"503410a2c0c8b00002005c8c","index":5,"code_reset":false,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Perfect. Your profile's really coming along!\n\nIt still looks a bit bland, though. Thankfully, you know how to fancify your fonts with the `font-family`, `font-size`, and `color` properties! Which is exactly what you're about to do.","entry_html":"\u003Cp\u003EPerfect. Your profile\u0026#39;s really coming along!\u003C/p\u003E\n\n\u003Cp\u003EIt still looks a bit bland, though. Thankfully, you know how to fancify your fonts with the \u003Ccode\u003Efont-family\u003C/code\u003E, \u003Ccode\u003Efont-size\u003C/code\u003E, and \u003Ccode\u003Ecolor\u003C/code\u003E properties! Which is exactly what you\u0026#39;re about to do.\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":"Remember, these are all properties of the `style` attribute. To make a red `\u003Cp\u003E`, you'd write:\n\n    \u003Cp style=\"color:red\"\u003EI'm red!\u003C/p\u003E","hint_html":"\u003Cp\u003ERemember, these are all properties of the \u003Ccode\u003Estyle\u003C/code\u003E attribute. To make a red \u003Ccode\u003E\u0026lt;p\u0026gt;\u003C/code\u003E, you\u0026#39;d write:\u003C/p\u003E\n\n\u003Cpre\u003E\u003Ccode\u003E\u0026lt;p style=\u0026quot;color:red\u0026quot;\u0026gt;I\u0026#39;m red!\u0026lt;/p\u0026gt;\n\u003C/code\u003E\u003C/pre\u003E\n","instruction":"Spice up your profile with different fonts, sizes, and colors. You can do any combination you like, so long as you use `font-family`, `font-size`, and `color` at least once each!","instruction_html":"\u003Cp\u003ESpice up your profile with different fonts, sizes, and colors. You can do any combination you like, so long as you use \u003Ccode\u003Efont-family\u003C/code\u003E, \u003Ccode\u003Efont-size\u003C/code\u003E, and \u003Ccode\u003Ecolor\u003C/code\u003E at least once each!\u003C/p\u003E\n","name":"Fancy up your font","test_functions":"if (code['index.html'].match(/color\\s*:/i) === null){\n\treturn \"It looks like you haven't used the color attribute! Add a splash of color to make your profile really pop.\";\n}\nif(code['index.html'].match(/font-family\\s*:/i) === null){\n\treturn \"It looks like you haven't used the font-family attribute. Try it at least once. Sticking to a single font is boring!\";\n}\nif(code['index.html'].match(/font-size\\s*:/i) === null){\n\treturn \"It looks like you haven't used the font-size attribute. Give it a try!\";\n}\n\nreturn true;","preview_button":true,"is_current_checkpoint":false},{"_id":"503410a3dba57d00020063ac","index":6,"code_reset":false,"default_files":[{"filename":"index.html","content":"\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n\t\u003Chead\u003E\n\t\t\u003Ctitle\u003E\u003C/title\u003E\n\t\u003C/head\u003E\n\t\u003Cbody\u003E\u003C/body\u003E\n\u003C/html\u003E"}],"entry":"Great work! Just one more thing before you can call your profile complete: you've got to add just the right number of *emphasized* and **strong** words.","entry_html":"\u003Cp\u003EGreat work! Just one more thing before you can call your profile complete: you\u0026#39;ve got to add just the right number of \u003Cem\u003Eemphasized\u003C/em\u003E and \u003Cstrong\u003Estrong\u003C/strong\u003E words.\u003C/p\u003E\n","external_resources":["https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"],"hint":null,"hint_html":null,"instruction":"How many you use is up to you, but you should use `\u003Cem\u003E` and `\u003Cstrong\u003E` at least once each! Once you do, hit Save \u0026 Submit Code to finish the exercise and bask in the glory of your newly created profile.","instruction_html":"\u003Cp\u003EHow many you use is up to you, but you should use \u003Ccode\u003E\u0026lt;em\u0026gt;\u003C/code\u003E and \u003Ccode\u003E\u0026lt;strong\u0026gt;\u003C/code\u003E at least once each! Once you do, hit Save \u0026amp; Submit Code to finish the exercise and bask in the glory of your newly created profile.\u003C/p\u003E\n","name":"Bold! Italic! Bold!","test_functions":"if(code['index.html'].match(/\\\u003C\\s*strong\\s*\\\u003E/) === null){\n\treturn \"Don't forget to use a \u003Cstrong\u003E tag somewhere!\";\n}\nif(code['index.html'].match(/\\\u003C\\s*\\/strong\\s*\\\u003E/) === null){\n\treturn \"Looks like you didn't close your \u003C/strong\u003E tag!\";\n}\nif(code['index.html'].match(/\\\u003C\\s*em\\s*\\\u003E/) === null){\n\treturn \"Don't forget to use an \u003Cem\u003E tag somewhere!\";\n}\nif(code['index.html'].match(/\\\u003C\\s*\\/em\\s*\\\u003E/) === null){\n\treturn \"Looks like you didn't close your \u003C/em\u003E tag!\";\n}\n\nreturn true;","preview_button":true,"is_current_checkpoint":false}],"description":"Think about your profile on your favorite social networking site. When you get right down to it, it's basically... a list!","name":"Listing Your Interests","checkpoints_count":7,"completed_checkpoints_count":0,"is_current_project":true,"index":0,"completed":false,"author":{"_id":"4f04f1847057120003006c12","handle":"Eric Weinstein","profile_image_url":"http://s3.amazonaws.com/codecademy-production/profile_thumbnail/50b7d7b3cf6c0f9b11000087_795211733.jpg","self_url":"/v1/users/4f04f1847057120003006c12"},"continue_to_course":{"name":"HTML Basics III","url":"http://www.codecademy.com/courses/web-beginner-en-f8mcL/?curriculum_id=50579fb998b470000202dc8b"}}],"mode":"web","language":"Web","is_php":false,"return_to":{"name":"HTML \u0026 CSS","url":"http://www.codecademy.com/en/tracks/web?jump_to=5034072515f4a50002001d99"},"project_index":0,"course_progress_percentage":0,"course_exercises_index":1,"course_exercises_total":7,"continue_to_course":{"name":"HTML Basics III","url":"http://www.codecademy.com/courses/web-beginner-en-f8mcL/?curriculum_id=50579fb998b470000202dc8b"},"author":{"_id":"4f04f1847057120003006c12","handle":"Eric Weinstein","profile_image_url":"http://s3.amazonaws.com/codecademy-production/profile_thumbnail/50b7d7b3cf6c0f9b11000087_795211733.jpg","self_url":"/v1/users/4f04f1847057120003006c12"}};
+  CCDATA.composer.current_checkpoint_index = 0;
+  CCDATA.composer.intro = false;
+  CCDATA.composer.lintHintShown = {};
+</script>
+<header class="main">
+    <a href="http://www.codecademy.com/en/tracks/web?jump_to=5034072515f4a50002001d99" class="lesson__back-nav ui-header__link fl">
+  <div class="ui-media lesson__track-wrapper">
+    <div class="ui-media__image">
+      <div class="new-icon new-icon--medium new-icon--back-arrow"></div>
+    </div>
+    <div class="ui-media__main">
+        HTML &amp; CSS
+    </div>
+  </div>
+</a>
+<h1 class="logo">
+  <a href="http://www.codecademy.com/" class="ui-header__logo--rebrand">
+    <img alt="Codecademy" src="Button_files/logo--teal-d10b21a45b84379f184aa74fbd19ab8c.svg">
+</a></h1>
+
+<div class="ui-header__me lesson__me-wrapper">
+  <a href="#" class="ui-header__link ui-media" data-toggle="dropdown" data-target="#user-menu">
+  <div class="ui-media__image">
+    <img alt="Jasen Dowell" class="ui-header__avatar" src="Button_files/e6c5d84399ea65a5c6df5a059fba7b14.png">
+  </div>
+  <div class="ui-media__main">
+    Me <span class="ui-button__dropdown-arrow"></span>
+  </div>
+</a>
+<div id="user-menu" class="app__user-menu ui-dropdown ui-dropdown--light ui-dropdown--checkpoints ui-dropdown--arrow-on-top">
+<div class="ui-dropdown__arrow__container"><div class="ui-dropdown__arrow"></div><div class="ui-dropdown__arrow-border__container"><div class="ui-dropdown__arrow-border"></div></div></div>
+  <div class="block-list">
+    <a href="http://www.codecademy.com/users/pysolver19992" class="block-list__item">View my profile</a>
+    <a href="http://www.codecademy.com/users/5397aa098c1ccc95f60005d3/edit" class="block-list__item">Edit account settings</a>
+    <a href="http://www.codecademy.com/help" class="block-list__item" id="help-nav">Help</a>
+    <a href="http://www.codecademy.com/sign_out" class="block-list__item">Sign out</a>
+  </div>
+</div>
+
+</div>
+<div id="connection-state">
+  <div class="msg"></div>
+</div>
+<div id="notices"></div>
+</header>
+<div class="ui-overlay ui-overlay--dark ui-overlay--lesson js-lesson-loading-overlay">
+  <img alt="Ajax-loader-large-white" class="loader" src="Button_files/ajax-loader-large-white-d4ed9d7ce3211d967fd1285cd84a1734.gif">
+</div>
+<div class="lesson-left-bar">
+  <div class="js-lesson-left-bar"><div class="lesson-nav ui-dropdown ui-dropdown--light ui-dropdown--checkpoints ui-dropdown--arrow-on-top js-checkpoints">
+  <div class="ui-dropdown__arrow__container">
+    <div class="ui-dropdown__arrow"></div>
+    <div class="ui-dropdown__arrow-border__container">
+      <div class="ui-dropdown__arrow-border"></div>
+    </div>
+  </div>
+
+  <div class="block-list ui-counter ui-counter--bold">
+    <a class="block-list__item ui-media ui-media--reverse lesson-nav__section js-section is-active">
+      <div class="ui-media__image">
+      </div>
+      <div class="ui-media__main">
+        Listing Your Interests
+      </div>
+    </a>
+    <div style="height: 294px;" class="js-section__content in collapse" data-index="0">
+      <div class="block-list lesson-nav__exercises">
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="0">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              Here's what you're building
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="1">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              You have the power!
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="2">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              A bit about you
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="3">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              Profile sections
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="4">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              Lists within lists
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="5">
+          <div class="ui-media__image new-icon new-icon--small
+          
+             new-icon--checkpoint--completed
+            
+          ">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              Fancy up your font
+            </div>
+          </div>
+        </a>
+        <a class="block-list__item ui-media lesson-nav__exercise js-switch-checkpoint" data-index="6">
+          <div class="ui-media__image new-icon new-icon--small
+           new-icon--checkpoint--current
+">
+          </div>
+          <div class="ui-media__main">
+            <div class="ui-counter__item">
+              <strong>Bold! Italic! Bold!</strong>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="block-list__item">
+      <div class="lesson-nav__meta">Course by Eric Weinstein</div>
+    </div>
+  </div>
+</div><div class="ui-overlay ui-overlay--dark js-checkpoints-overlay"></div>
+<div class="lesson-left-bar__header">
+
+  <div class="article__inner">
+    <a class="ui-button ui-button--small ui-button--round ui-button--transparent lesson__show-checkpoints js-show-checkpoints">
+      7/7
+      <div class="ui-button__dropdown-arrow"></div>
+    </a>
+    <div class="lesson__course-name one-line-text js-course-name">Social Networking Profile</div>
+    <div class="lesson-left-bar__toggle js-toggle-left-bar">
+      <div class="new-icon--small new-icon--arrow-right"></div>
+    </div>
+  </div>
+</div>
+<div class="lesson-checkpoint__wrapper">
+  <div class="lesson-checkpoint nano has-scrollbar">
+    <div style="right: -15px;" tabindex="0" class="nano__content content">
+      <div class="lesson-checkpoint__inner">
+        <div class="article__inner">
+          <div class="article__header">
+            <div class="lesson-checkpoint__name">Bold! Italic! Bold!</div>
+          </div>
+          <div class="article__content">
+            <p>Great work! Just one more thing before you can call your profile complete: you've got to add just the right number of <em>emphasized</em> and <strong>strong</strong> words.</p>
+
+          </div>
+        </div>
+        <div class="lesson-checkpoint__instructions">
+          <div class="article__inner lesson-checkpoint__instructions__header">
+            <div class="block-label--light-blue">Instructions</div>
+          </div>
+          <div class="article__inner">
+            <p>How many you use is up to you, but you should use <code class="xml"><span class="tag">&lt;<span class="title">em</span>&gt;</span></code> and <code class="xml"><span class="tag">&lt;<span class="title">strong</span>&gt;</span></code>
+ at least once each! Once you do, hit Save &amp; Submit Code to finish 
+the exercise and bask in the glory of your newly created profile.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  <div style="display: none;" class="pane"><div style="height: 891px;" class="slider"></div></div></div>
+</div>
+</div>
+    <div class="lesson-links">
+  <a target="_blank" class="lesson-links__link" href="http://www.codecademy.com/forums/web-beginner-en-9x6JW/0">Q&amp;A Forum</a>
+  <a target="_blank" class="lesson-links__link" href="http://www.codecademy.com/glossary/html">Glossary</a>
+</div>
+</div>
+<div class="lesson-middle js-lesson-editor"><div class="lesson-file-tabs js-lesson-file-tabs"><div class="lesson-file-tabs__wrapper">
+  <div>
+<div class="lesson-file-tabs__tab js-file-tab tab cf active" data-type="index.html">
+  <div class="new-icon--small--center new-icon--lesson-file fl"></div>
+  <div class="fl">index.html</div>
+</div>  </div>
+  <div id="composer-view-project-button-for-narrow-screen">
+    <div class="actions-list actions-list--composer-tabs codebit-actions-management actions-list--individual-buttons">
+      <div>
+        <div class="js-view-project actions-list__button actions-entity has-hover ui-media">
+          <div class="ui-media__image actions-list__icon cc-icon">project</div>
+          <div class="ui-media__main actions-list__text">View Preview</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="lesson-ace-editor lesson-editor-width js-ace-editor orion-composer ace_editor ace_nobold ace-tomorrow-night ace_dark ace_focus"><textarea style="opacity: 0; height: 19px; width: 8.4px; right: 519.6px; bottom: 727px;" spellcheck="false" wrap="off" class="ace_text-input ui-inited"></textarea><div class="ace_gutter"><div style="margin-top: 0px; height: 955px; width: 50px;" class="ace_layer ace_gutter-layer ace_folding-enabled"><div style="height: 19px;" class="ace_gutter-cell">1<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">2<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">3<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">4</div><div style="height: 19px;" class="ace_gutter-cell">5</div><div style="height: 19px;" class="ace_gutter-cell">6<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">7</div><div style="height: 38px;" class="ace_gutter-cell">8</div><div style="height: 19px;" class="ace_gutter-cell">9<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">10</div><div style="height: 19px;" class="ace_gutter-cell">11<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">12</div><div style="height: 19px;" class="ace_gutter-cell">13</div><div style="height: 19px;" class="ace_gutter-cell">14</div><div style="height: 19px;" class="ace_gutter-cell">15</div><div style="height: 19px;" class="ace_gutter-cell">16</div><div style="height: 19px;" class="ace_gutter-cell">17<span style="height: 19px;" class="ace_fold-widget ace_start ace_open"></span></div><div style="height: 19px;" class="ace_gutter-cell">18</div><div style="height: 19px;" class="ace_gutter-cell">19</div><div style="height: 19px;" class="ace_gutter-cell">20</div><div style="height: 19px;" class="ace_gutter-cell">21</div><div style="height: 19px;" class="ace_gutter-cell">22</div><div style="height: 19px;" class="ace_gutter-cell">23</div><div style="height: 19px;" class="ace_gutter-cell">24</div><div style="height: 19px;" class="ace_gutter-cell">25</div><div style="height: 19px;" class="ace_gutter-cell">26</div><div style="height: 19px;" class="ace_gutter-cell">27</div></div><div style="top: 171px; height: 19px;" class="ace_gutter-active-line"></div></div><div style="left: 50px; right: 0px; bottom: 0px;" class="ace_scroller"><div style="margin-top: 0px; width: 700px; height: 955px; margin-left: 0px;" class="ace_content"><div class="ace_layer ace_print-margin-layer"><div style="left: 676px; visibility: visible;" class="ace_print-margin"></div></div><div class="ace_layer ace_marker-layer"><div class="ace_active-line" style="height:19px;top:171px;left:0;right:0;"></div></div><div style="padding: 0pt 4px;" class="ace_layer ace_text-layer"><div class="ace_line_group"><div class="ace_line" style="height:19px"><span class="ace_punctuation ace_doctype ace_begin">&lt;!</span><span class="ace_meta ace_tag ace_doctype">DOCTYPE</span>&nbsp;<span class="ace_xml-pe">html</span><span class="ace_punctuation ace_doctype ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px"><span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">html</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">head</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px"><span class="ace_indent-guide">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">title</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Jasen&nbsp;Dowell<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">title</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">head</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">body</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name ace_image">img</span>&nbsp;<span class="ace_entity ace_other ace_attribute-name">src</span><span class="ace_keyword ace_operator ace_separator">=</span><span class="ace_string">"http://repdx.com/files/2010/10/oregon.jpg"</span><span class="ace_meta ace_tag ace_punctuation ace_end">/&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">p</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Age<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>:&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">strong</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>28<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">strong</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Sex<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>:&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">strong</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Male<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">strong</span></div><div class="ace_line" style="height:19px"><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Hometown<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">em</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>:&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">strong</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Baltimore,&nbsp;MD<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">strong</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">p</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">ul</span>&nbsp;<span class="ace_entity ace_other ace_attribute-name">style</span><span class="ace_keyword ace_operator ace_separator">=</span><span class="ace_string">"font-size:&nbsp;20px;&nbsp;color:&nbsp;blue;"</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span>&nbsp;<span class="ace_entity ace_other ace_attribute-name">style</span><span class="ace_keyword ace_operator ace_separator">=</span><span class="ace_string">"font-family:&nbsp;helvetica;"</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>snowboarding<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">ol</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Colorado<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Utah<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Wyoming<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">ol</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>soccer<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">ul</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>World&nbsp;Cup<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>Champions&nbsp;League<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>MLS<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">ul</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">ul</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>my&nbsp;dog,&nbsp;Oakley<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span>beach<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">li</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">ul</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px">&nbsp;&nbsp;&nbsp;&nbsp;<span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">body</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div><div class="ace_line_group"><div class="ace_line" style="height:19px"><span class="ace_meta ace_tag ace_punctuation ace_begin">&lt;/</span><span class="ace_meta ace_tag ace_name">html</span><span class="ace_meta ace_tag ace_punctuation ace_end">&gt;</span></div></div></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_cursor-layer"><div style="left: 172px; top: 171px; width: 8.4px; height: 19px;" class="ace_cursor"></div></div></div></div><div style="height: auto; width: auto; top: -100px; left: -100px; visibility: hidden; position: fixed; overflow: visible; white-space: nowrap;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><div style="width: 20px; display: none; overflow-y: scroll; bottom: 0px;" class="ace_scrollbar"><div style="width: 20px; height: 532px;" class="ace_scrollbar-inner"></div></div><div style="height: 20px; display: none; overflow-x: scroll; left: 50px; right: 0px;" class="ace_scrollbar-h"><div style="height: 20px; width: 700px;" class="ace_scrollbar-inner"></div></div><div style="display: none;" class="ace_gutter-tooltip"></div></div>
+<div class="file-container"></div></div>
+<div class="lesson-sidebar lesson-sidebar--composer-responsive js-lesson-sidebar show">
+  <div class="lesson-sidebar-container">
+    
+<div class="result-chrome mini-preview">
+  <div class="result-container frame-wrap js-frame-wrap cc-preview"><div class="cc-preview__overlay">
+  <div style="display: none;" class="widget-spinner widget-spinner--small widget-spinner--blue"></div>
+  <div class="cc-preview__controls">
+    <a class="js-preview-minimize cc-preview__control cc-preview__control--minimize"></a>
+  </div>
+</div>
+<div class="cc-preview__stuff"><iframe style="-moz-transform: scale(0.183543); width: 544.832%; height: 544.832%;" src="Button_files/index-c5bf1319f62cb07c26239e761a9ed5c9_002.html" scrolling="no"></iframe></div>
+</div>
+  <div class="js-codebit-actions cf">
+  <div class="editor-actions">
+
+     
+<div class="actions-list actions-list--composer-teal composer-actions-management actions-list--individual-buttons">
+
+
+
+
+    <a href="" class="js-full-screen actions-list__button actions-entity has-hover ui-media">
+      <div class="ui-media__image actions-list__icon cc-icon">expand</div>
+      <div class="ui-media__main actions-list__text">Full Screen</div>
+</a></div>
+
+
+  </div>
+</div>
+
+</div>
+
+  <div class="result-chrome widget-err-console js-err-console is-hidden">
+  <div class="result-container__js-errors-console__msgs js-err-msgs"></div>
+</div>
+
+
+
+
+
+    <div id="js-glossary-flash-card" class="glossary-flash-card glossary-flash-card--hidden"></div>
+    <div id="js-backtest" class="backtest backtest--hidden"></div>
+  </div>
+</div>
+<div class="lesson-action-bar js-lesson-action-bar">
+  <div class="composer-bottom-bar lesson-action-bar__inner">
+  <div class="button-group--horizontal">
+    <a class="ui-button ui-button--medium ui-button--blue--on-dark ui-loading js-submit-code">
+      <div class="ui-loading__other">
+        Save &amp; Submit Code
+      </div>
+      <div class="ui-loading__image new-icon--small new-icon--gear--white loading-spin"></div>
+    </a>
+    <a class="ui-button ui-button--medium ui-button--transparent--on-dark js-reset-code reset">Reset Code</a>
+  </div>
+</div>
+<div class="lesson-action-bar__state lesson-action-bar__inner lesson-action-bar__inner--pass js-state--passed is-shown"><div class="lesson-action-bar__inner__wrapper">
+  <div class="ui-media">
+    <div class="ui-media__image new-icon--medium new-icon--state--passed"></div>
+    <div class="ui-media__main">
+
+
+
+
+
+
+            <span class="spacer--right">Congratulations, you've finished this course!</span>
+
+                <a class="ui-button ui-button--medium ui-button--green--on-dark" href="http://www.codecademy.com/courses/web-beginner-en-f8mcL/?curriculum_id=50579fb998b470000202dc8b">Next Course: HTML Basics III →</a>
+
+
+
+    </div>
+  </div>
+  <div class="close-icon close-success"></div>
+</div>
+</div>
+<div class="lesson__state lesson__state--failed js-state--failed"><div class="ui-media">
+  <div class="ui-media__image new-icon--medium new-icon--caution-triangle"></div>
+  <div class="ui-media__main">
+    <b>Oops, try again.</b>
+    Please follow the instructions on the Full Preview page to test your code.
+  </div>
+</div>
+<div class="close-icon close-error"></div>
+</div>
+<div class="lesson-action-bar__state lesson-action-bar__state--back lesson-action-bar__inner js-state--back">
+  <a class="ui-button ui-button--medium ui-button--gray--on-dark js-back-to-editor back-editor">Back to Editor</a>
+</div>
+</div>
+  <div class="full-preview js-full-preview">
+
+
+  <div class="full-preview__frame js-full-preview__frame">
+    <div class="full-preview__frame__wrap js-full-preview-container cc-preview"><div class="cc-preview__overlay">
+  <div style="display: none;" class="widget-spinner widget-spinner--small widget-spinner--blue"></div>
+  <div class="cc-preview__controls">
+    <a class="js-preview-minimize cc-preview__control cc-preview__control--minimize"></a>
+  </div>
+</div>
+<div class="cc-preview__stuff no-fadein"><iframe style="-moz-transform: scale(0.487567); width: 205.1%; height: 205.1%;" src="Button_files/index-c5bf1319f62cb07c26239e761a9ed5c9_002.html" scrolling="no"></iframe></div>
+</div>
+  </div>
+
+  <div class="full-preview__footer">
+    <div class="full-preview-bar">
+
+  <div class="full-preview-bar__cta">
+
+     
+
+            <button class="button js-full-preview__back" id="">
+      Back to editor
+    </button>
+
+
+    <div class="full-preview-bar__message js-message"></div>
+
+  </div>
+
+</div>
+
+  </div>
+
+</div>
+
+
+<!-- Facebook Publishing permissions form -->
+
+<form accept-charset="UTF-8" action="/users/5397aa098c1ccc95f60005d3" class="edit_user" data-remote="true" id="enable-facebook-publishing" method="post"><div style="margin:0;padding:0;display:inline"><input class="ui-inited" name="utf8" value="✓" type="hidden"><input class="ui-inited" name="_method" value="put" type="hidden"><input class="ui-inited" name="authenticity_token" value="8nd3rGu6XMVhi05GDY6LAidiWg8LfjZy6/aZzMtWW9g=" type="hidden"></div>
+  <input class="ui-inited" id="user_fb_pa" name="user[fb_pa]" value="true" type="hidden">
+</form><form accept-charset="UTF-8" action="/users/5397aa098c1ccc95f60005d3" class="edit_user" data-remote="true" id="disable-facebook-publishing" method="post"><div style="margin:0;padding:0;display:inline"><input class="ui-inited" name="utf8" value="✓" type="hidden"><input class="ui-inited" name="_method" value="put" type="hidden"><input class="ui-inited" name="authenticity_token" value="8nd3rGu6XMVhi05GDY6LAidiWg8LfjZy6/aZzMtWW9g=" type="hidden"></div>
+  <input class="ui-inited" id="user_fb_pa" name="user[fb_pa]" value="false" type="hidden">
+</form>
+
+
+
+
+<script src="Button_files/common-en-e9e653be7215c84704beb770449e942f.js" type="text/javascript"></script>
+
+  <script src="Button_files/common-bacba78e5a709626ad163ef6b5d5385c.js" type="text/javascript"></script>
+  <script src="Button_files/composer_controller-c73984d5a0b20a37cf860c79f7b8b841.js" type="text/javascript"></script>
+
+  <!-- Qualaroo -->
+  <script type="text/javascript">
+    var _kiq = _kiq || [];
+    _kiq.push(['identify', '5397aa098c1ccc95f60005d3']);
+    _kiq.push(['set', {
+      'client_ip':'108.15.20.23'
+    }]);
+  </script>
+
+  <!-- Chartbeat -->
+  <script>
+    var _sf_async_config={uid:27714,domain:"codecademy.com"};
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+        (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+        "js/chartbeat.js");
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+  </script>
+
+
+<!-- Load relevant javascript controller -->
+<script type="text/javascript">
+  require(['common', 'controllers/composer_controller'], function (common, controller) {
+    if (common) common.init();
+    if (controller) controller['init']();
+    
+  });
+  var registration_partial = registration_partial || false;
+  if (registration_partial) {
+    require(["controllers/registrations_controller"], function (controller) {
+      controller.init();
+    });
+  }
+  CCDATA.authenticity_token = '8nd3rGu6XMVhi05GDY6LAidiWg8LfjZy6/aZzMtWW9g=';
+</script>
+
+<!-- Facebook -->
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0pt; width: 0pt;"><div><iframe src="Button_files/V80PAcvrynR.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="Button_files/V80PAcvrynR_002.html" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0pt; width: 0pt;"><div></div></div></div>
+<script>
+  var FB_APP_ID = '212500508799908';
+  window.fbAsyncInit = function() {
+    var FB = (window.FB || undefined);
+    if (FB) {
+      FB.init({
+        appId      : FB_APP_ID
+      , channelUrl : window.root_url+'/channel.html'
+      , status     : true
+      , cookie     : true
+      , xfbml      : true
+      });
+    }
+  };
+
+  (function(d){
+    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    ref.parentNode.insertBefore(js, ref);
+  }(document));
+</script>
+
+<!-- Overlay laoder. Deprecated by rebrand? -->
+<script>
+  var overlay = document.getElementById('overlay');
+  if (overlay && overlay.children.length > 0) {
+    overlay.style.cssText = "display: block;";
+  }
+</script>
+
+<script src="Button_files/chartbeat.js" type="text/javascript" language="javascript"></script><div style="display: none;" class="modal-overlay"></div><div style="top: 0px; display: none;" class="modal-content"><div class="cmpsr-modal  ">
+  <div class="cmpsr-modal-header">
+  <p>You earned a badge!</p>
+</div>
+
+<div class="cmpsr-modal-content">
+  Social Networking Profile
+  <img class="modal-badge" src="Button_files/WebAchievement.png">
+<div class="social_button" data-type="twitter" id="twitter_button">
+<iframe allowtransparency="true" src="Button_files/tweet_button.html" class="twitter-share-button twitter-count-horizontal" style="width: 107px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true" frameborder="0" scrolling="no"></iframe>
+<script>
+//<![CDATA[
+  var twttr = (twttr || undefined);
+  if (twttr) twttr.widgets.load();
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//]]>
+</script>
+</div>
+<div class="social_button" data-type="facebook">
+<fb:like href="http://www.facebook.com/codecademy" send="true" width="100" layout="button_count" show_faces="false" <="" fb:like="" fb-xfbml-state="rendered" class="fb_edge_widget_with_comment fb_iframe_widget"><span style="height: 20px; width: 138px;"><iframe id="fa6ac1d0" name="f2172ef5c" style="border: medium none; overflow: hidden; height: 20px; width: 138px;" title="Like this content on Facebook." class="fb_ltr" src="Button_files/like.html" scrolling="no"></iframe></span></fb:like></div>
+</div>
+<div>
+	
+</div>
+  <div class="cmpsr-modal__footer">
+ 	  <a class="bttn large close-modal">Close</a>
+  </div>
+<a class="bttn-close close-modal close">×</a></div></div></body></html>
