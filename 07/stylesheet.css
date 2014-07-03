@@ -1,0 +1,56 @@
+#header {
+	background-color: #241915;
+}
+
+#about {
+	position: center;
+}
+
+#menu {
+	margin: 20px;
+	background-color: #f6f6f6;
+	padding: 30px;
+}
+
+#menu_list {
+	font-family: Helvetica sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+}
+
+#location {
+	font-family: Georgia serif;
+	font-size: 20px;
+	line-height: 1;
+	color: #261913;
+
+}
+
+#footer {
+	font-family: Helvetica sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #FFFFFF;
+}
+
+#h1 {
+	font-family: Georgia serif;
+	font-size: 32px;
+	line-height: 1.0;
+	color: #261913;
+}
+
+#p {
+	font-family: Helvetica sans serif;
+	font-size: 15px;
+	line-height: 1;
+	color: #666666;
+}
+
+#h2 {
+	font-family: Georgia serif;
+	font-size: 28px;
+	line-height: 1;
+	color: #603B1C;
+}
